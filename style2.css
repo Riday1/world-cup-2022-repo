@@ -1,0 +1,67 @@
+/* for tab device */
+
+@media screen and (min-width:375px) and (max-width:834px) {
+
+
+    body {
+        max-width: 834px;
+
+
+    }
+
+    /* t-----------------op banner style */
+    .container-1 {
+        width: 734px;
+        margin-bottom: 70px;
+    }
+
+    .banner-info {
+        margin: 61px 2px 61px 76px;
+    }
+
+    .banner-title {
+        font-weight: 700;
+        font-size: 40px;
+        margin: 0px;
+        line-height: 50px;
+    }
+
+    .banner-text {
+        text-overflow: ellipsis;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .banner-btn {
+        width: 161px;
+        height: 48px;
+        font-size: 20px;
+    }
+
+    .banner-btn a {
+        padding: 12px;
+    }
+
+    .banner-image {
+        margin-top: 58px;
+
+    }
+
+    .banner-image img {
+        width: 323px;
+        height: 340px;
+        position: relative;
+        top: 26px;
+
+    }
+
+
+
+
+
+
+
+
+
+}
