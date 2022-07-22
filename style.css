@@ -225,6 +225,59 @@ blog style
     font-size: 16px;
 }
 
+/* ---------------------------------------
+matches shedule sytle 
+------------------------------------------*/
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+}
+
+.match {
+    width: 252px;
+    height: 136px;
+    padding: 53px 30px;
+    border-radius: 7px;
+    border: 1px solid rgba(211, 211, 211, 0.437);
+}
+
+.match-image {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.match-image img {
+    width: 93.04px;
+    height: 56.18px;
+}
+
+.match-image h4 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+}
+
+.match-info {
+    text-align: center;
+}
+
+.match-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+}
+
+.match-date {
+    color: #4D4D4D;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+}
 
 /* --------------------------------------------------------
 view button or hidden button 
@@ -261,4 +314,49 @@ view button or hidden button
     line-height: 23px;
     text-align: center;
 
+}
+
+/* -----------------------------------------------
+footer part style
+----------------------------------------------- */
+footer {
+    background-color: #161616;
+}
+
+.footer-container {
+    padding: 140px;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+
+
+}
+
+
+.footer-title h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+
+
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text p {
+    margin: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
 }
