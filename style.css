@@ -29,7 +29,7 @@ top banner style
 --------------------------------------------- */
 .container-1 {
     width: 1321px;
-    margin-bottom: 104px;
+    margin-top: 104px;
 
 }
 
@@ -167,7 +167,7 @@ blog style
 
 }
 
-.blog-image {
+.blog-image img {
     width: 312px;
     height: 175px;
 }
@@ -321,6 +321,7 @@ footer part style
 ----------------------------------------------- */
 footer {
     background-color: #161616;
+    margin-top: 104px;
 }
 
 .footer-container {
@@ -354,11 +355,11 @@ hr {
 }
 
 .footer-text p {
-    margin: 30px;
+    margin: 40px 30px;
+    /* margin: 0px; */
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #B9B9B9;
 }
-
 

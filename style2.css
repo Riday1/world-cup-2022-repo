@@ -12,7 +12,8 @@
     /* t-----------------op banner style */
     .container-1 {
         width: 734px;
-        margin-bottom: 70px;
+
+        margin-top: 70px;
     }
 
     .banner-info {
@@ -26,11 +27,28 @@
         line-height: 50px;
     }
 
-    .banner-text {
+    .text-container {
+        width: 316px;
+        height: 48px;
+
+
+        margin-top: 10px;
+        margin-bottom: 20px;
+        overflow: hidden;
         text-overflow: ellipsis;
+
+    }
+
+    .banner-text {
+
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
+        margin: 0px;
+
+
+
+
     }
 
     .banner-btn {
@@ -52,14 +70,138 @@
         width: 323px;
         height: 340px;
         position: relative;
-        top: 26px;
+        left: 20px;
 
     }
 
+    
 
 
 
+    /* --------------------------------------------
+section 2 style 
+-----------------------------------------*/
 
+
+    .blog-container {
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column;
+    }
+
+
+    .box {
+        display: flex;
+        justify-content: space-between;
+        ;
+        width: 734px;
+        height: auto;
+        padding: 0px;
+        padding-bottom: 30px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .box-btn {
+        width: 230px;
+        height: 64px;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 0px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        border: 1px solid rgb(203, 195, 195);
+    }
+
+    /*-------------------------------------------------- 
+    blog style 
+    -------------------------------------------------------*/
+
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .blog {
+        width: 357px;
+        height: 414.21px;
+
+    }
+
+    .blog-image img {
+        width: 357px;
+        height: 200.24px;
+    }
+
+    .blog-info {
+        padding: 22px;
+    }
+
+    .blog-btn {
+
+        width: 114.42px;
+        height: 36.62px;
+
+        border-radius: 5.72px;
+    }
+
+    .blog-btn a {
+        font-weight: 500;
+        font-size: 18.3077px;
+        line-height: 27px;
+
+    }
+
+    .blog-text {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+
+        margin-top: 17px;
+        margin-bottom: 24px;
+    }
+
+    .blog-footer {
+        width: 163.88px;
+        height: 30px;
+
+    }
+
+    .footer-content {
+        width: 68.9px;
+        height: 30px;
+    }
+
+    /* --------------------------------------------------------
+    view button or hidden button 
+    -------------------------------------------------------- */
+
+    .visibility {
+        display: block;
+
+    }
+
+    /* -----------------------------------------------
+    footer part style
+    ----------------------------------------------- */
+
+    .footer-container {
+        padding: 50px;
+    }
+
+    .footer-text {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-text p {
+        margin: 20px 15px;
+        /* margin: 0x; */
+        font-weight: 500;
+        line-height: 50px;
+        line-height: 24px;
+        color: #B9B9B9;
+    }
 
 
 
