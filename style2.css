@@ -2,13 +2,17 @@
 
 @media screen and (min-width:376px) and (max-width:834px) {
 
-
+    /* -----------------------------------
+    common style
+    ------------------------------------- */
     body {
         max-width: 834px;
 
     }
 
-    /* top banner style */
+    /* --------------------------------
+    top banner style
+    ---------------------------------- */
     .container-1 {
         width: 734px;
 
@@ -83,7 +87,7 @@ section 2 style
 
     .blog-container {
         display: flex;
-        /* justify-content: space-between; */
+        
         flex-direction: column;
     }
 
@@ -169,9 +173,9 @@ section 2 style
         height: 30px;
     }
 
-    /* --------------------------------------------------------
+    /* ----------------------------------------------
     view button or hidden button 
-    -------------------------------------------------------- */
+    ------------------------------------------------*/
 
     .visibility {
         display: block;

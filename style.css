@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Gantari:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Oleo+Script&family=Poppins:wght@500&display=swap');
 
+
+/* -----------------------------------
+common style
+------------------------------------- */
 body {
     font-family: 'DM Sans', sans-serif;
     font-family: 'Gantari', sans-serif;
@@ -26,7 +30,7 @@ main {
 
 /* -------------------------
 top banner style
---------------------------------------------- */
+------------------------------ */
 .container-1 {
     width: 1321px;
     margin-top: 104px;
@@ -170,7 +174,7 @@ section 2 style
 
 /*-------------------------------------------------- 
 blog style 
--------------------------------------------------------*/
+----------------------------------------------------*/
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -316,7 +320,7 @@ view button or hidden button
 .view-btn {
     width: 131px;
     height: 47px;
-    /* padding: 12px 29px; */
+
     border-radius: 5px;
     background: #DD0000;
     border: none;
@@ -374,7 +378,7 @@ hr {
 
 .footer-text p {
     margin: 40px 30px;
-    /* margin: 0px; */
+
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;

@@ -1,6 +1,10 @@
 /* for mobile device */
 
 @media screen and (max-width:375px) {
+
+    /* ----------------------
+    common styles
+    -------------------------- */
     body {
         max-width: 375px;
 
@@ -70,10 +74,6 @@
         padding: 12px;
     }
 
-
-
-
-
     .banner-right {
         width: 100%;
     }
@@ -98,7 +98,7 @@
 
     .blog-container {
         display: flex;
-        /* justify-content: space-between; */
+        
         flex-direction: column;
     }
 
@@ -108,7 +108,7 @@
         width: 334px;
         height: auto;
         padding: 0px;
-        /* padding-bottom: 30px; */
+        
         background-color: #FFFFFF;
         border-radius: 10px;
         align-items: center;
@@ -117,10 +117,10 @@
     .box-btn {
         width: 252px;
         height: 64px;
-        /* font-family: 'Poppins', sans-serif; */
+        
         margin-bottom: 10px;
-        /* border-radius: 10px; */
-        /* background-color: #FFFFFF; */
+        
+       
     }
 
     /*-------------------------------------------------- 
@@ -155,14 +155,14 @@
     }
 
     .blog-btn a {
-        /* font-weight: 500; */
+       
         font-size: 17.1795px;
         line-height: 26px;
 
     }
 
     .blog-text {
-        /* font-weight: 600; */
+        
         font-size: 18.7675px;
         line-height: 28px;
 
