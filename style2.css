@@ -1,19 +1,17 @@
 /* for tab device */
 
-@media screen and (min-width:375px) and (max-width:834px) {
+@media screen and (min-width:376px) and (max-width:834px) {
 
 
     body {
         max-width: 834px;
 
-
     }
 
-    /* t-----------------op banner style */
+    /* top banner style */
     .container-1 {
         width: 734px;
-
-        margin-top: 70px;
+        margin-top:70px;
     }
 
     .banner-info {
@@ -30,7 +28,6 @@
     .text-container {
         width: 316px;
         height: 48px;
-
 
         margin-top: 10px;
         margin-bottom: 20px;
@@ -74,7 +71,7 @@
 
     }
 
-    
+
 
 
 

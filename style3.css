@@ -1,0 +1,130 @@
+/* for mobile device */
+
+@media screen and (max-width:375px) {
+    body {
+        max-width: 375px;
+
+    }
+
+    /* top banner style */
+
+    .container-1 {
+        width: 334px;
+        height: 472px;
+        margin-top: 30px;
+    }
+
+    .top-banner {
+
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+
+
+    }
+
+    .banner-left {
+        width: 100%;
+    }
+
+    .banner-info {
+        margin: 28px 38px 21px 38px;
+    }
+
+
+    .banner-title {
+        font-weight: 700;
+        font-size: 22px;
+        margin: 0px;
+        line-height: 33px;
+    }
+
+    .text-container {
+        width: 258px;
+        height: 48px;
+
+        margin-top: 10px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+    .banner-text {
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0px;
+    }
+
+    .banner-btn {
+        width: 161px;
+        height: 48px;
+        font-size: 20px;
+    }
+
+    .banner-btn a {
+        padding: 12px;
+    }
+
+
+
+
+
+    .banner-right {
+        width: 100%;
+    }
+
+    .banner-image {
+        margin-top: 0px;
+
+    }
+
+    .banner-image img {
+        width: 233px;
+        height: 245px;
+        position: relative;
+        left: 20px;
+
+    }
+
+
+    /* --------------------------------------------
+    section 2 style 
+    -----------------------------------------*/
+
+    .blog-container {
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        width: 334px;
+        height: auto;
+        padding: 0px;
+        /* padding-bottom: 30px; */
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        align-items: center;
+    }
+
+    .box-btn {
+        width: 252px;
+        height: 64px;
+        /* font-family: 'Poppins', sans-serif; */
+        margin-bottom: 10px;
+        /* border-radius: 10px; */
+        /* background-color: #FFFFFF; */
+    }
+
+    /*-------------------------------------------------- 
+    blog style 
+    -------------------------------------------------------*/
+    
+
+
+
+
+}
