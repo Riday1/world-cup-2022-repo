@@ -4,12 +4,16 @@
     body {
         max-width: 375px;
 
+
     }
 
-    /* top banner style */
+    /*-------------------------------------
+     top banner style 
+     ------------------------------------*/
 
     .container-1 {
         width: 334px;
+
 
         margin-top: 30px;
     }
@@ -185,6 +189,15 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .footer-text p {
+        margin: 20px 15px;
+        font-weight: 500;
+        font-size: 14px;
+
+
+    }
+
 
 
 

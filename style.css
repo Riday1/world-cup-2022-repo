@@ -73,12 +73,24 @@ top banner style
     font-size: 20px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+}
+
+.banner-btn:hover {
+    background: white;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .banner-btn a {
     text-decoration: none;
     color: #FFFFFF;
     padding: 16px 25px;
+
+}
+
+.banner-btn a:hover {
+    color: red;
 
 }
 
@@ -129,7 +141,13 @@ section 2 style
     margin-bottom: 30px;
     border-radius: 10px;
     background-color: #FFFFFF;
+    transition: 0.3s;
 
+}
+
+.box-btn:hover {
+    transform: scale(0.9);
+    cursor: pointer;
 }
 
 #red {
